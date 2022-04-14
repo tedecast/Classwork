@@ -1,0 +1,122 @@
+Web History
+
+Berners-Lee named his creation the World Wide Web, or simply "the web". The web involved three things:
+
+Text files, known as HTML files, containing links to other text files.
+A program, known as a browser, for viewing HTML files.
+A set of rules, known as the HTTP protocol, for transferring HTML files among computers.
+
+FTP is used to transfer files by logging into a computer with the files and typing commands to get the desired files.
+HTTP is a protocol for transferring HTML files among computers. Files can contain links to other files.
+Clicking a link in a file opens the file being linked to. Files can contain multiple links.
+
+A web page is a document that is viewed in a web browser. 
+A collection of related web pages are organized into a website. 
+A web server is a program that serves web pages to web browsers.
+
+Introduction of HTML
+HyperText markup language (HTML) is the standard markup language for web documents. Hypertext is text that has links to other text (and today to images, videos, and more). Document markup is special markings in the document that provide additional information about links, formatting, and images. HTML also permits adding metadata like search engine keywords, author information, and language.
+
+You can visit a reproduction of the first website (named The World Wide Web Project) through info.cern.ch.
+
+
+Early 1990s- The period when the web was first developed.
+People/companies began obtaining personal computers throughout the 1980s, and networks were growing. Connecting those computers intelligently was becoming important.
+
+HTML- The language used for a text file that describes a web page.
+The HyperText Markup Language has text with links (hypertext) to other files on the web.
+
+Web Page- Web document that is viewed in a web browser.
+A web page may link to other web pages.
+
+Website- Collection of related web pages.
+A website may be composed of any number of web pages.
+
+Web Server- A program that serves web pages to browsers.
+Popular web servers today include Apache, IIS, and nginx.
+
+HTTP- The protocol for transferring files among computers via the web.
+Short for HyperText Transfer Protocol. A protocol is a set of rules.
+
+Browser- A program for viewing web pages.
+A browser displays HTML files in a formatted way.
+
+Browser wars and HTML standardization
+A web browser is a program that downloads an HTML document from a web server, displays the document to the user with the appropriate formatting, and allows the user to interact with the document, such as clicking hyperlinks to access other documents. A web browser uses HTML to understand the structure and semantics, or meaning, of the document.
+
+1945- The idea for generating links from within one document to other documents.
+Vannevar Bush described the memory extension device, Memex, a system for building and following links between documents.
+
+1965- The term HyperText invented.
+Ted Nelson introduced the term HyperText in a paper on how to deal with information that was complex, changing, and uncertain.
+
+1990- First web browser is created.
+Tim Berners-Lee created and demonstrated a browser that works over the Internet.
+
+1994- The World Wide Web Consortium (W3C) created.
+The W3C is the official body that once developed and published HTML standards. The W3C is still in charge of the CSS standard.
+
+1995- HTML 2.0 standard published.
+HTML 2.0 was the first really official standard. Despite the standard, in the rush to beat the competition, browser developers kept adding new and incompatible features. Many websites only worked completely with one specific browser.
+
+2014- HTML5 standard published.
+Work on HTML5 started in 2008. HTML5 is synonymous with modern web standards.
+
+2019- WHATWG controls the HTML standard.
+W3C makes suggestions to WHATWG for new items to include in the HTML Living Standard
+
+A modern web page is composed of HTML, CSS, and JavaScript.
+
+HTML defines the structure and content of a web page.
+CSS specifies the layout and visible appearance.
+JavaScript describes the dynamic behaviors and actions of a web page.
+
+Specifies document structure
+HTML is used to specify the purpose of each part of a document. Each web browser has a default stylesheet that controls how the page is displayed, but HTML does not specify how the document parts are displayed.
+
+Manages document presentation
+CSS consists of a set of style rules about how to display the parts of a document.
+
+Enables document interaction
+JavaScript is a programming language that can manage any part of the document and interact with external servers to send and receive information. JavaScript sometimes also runs on web servers.
+
+http://www.csszengarden.com/
+
+https://learn.zybooks.com/zybook/MTHREEC32Master1/chapter/1/section/1
+
+Text that contains connections to other documents.
+The connections to other documents are called hyperlinks.
+
+Part of a document that explains how to interpret or structure other parts of the document.
+Markup are instructions to a browser about the rest of the document.
+
+A set of rules describing how to write HTML.
+A valid HTML document must follow the HTML language rules.
+
+An element is a single HTML structure. Elements are represented with HTML tags.
+
+HTML document
+The HTML Living Standard, produced by WHATWG, defines the required parts of an HTML document:
+
+The <!DOCTYPE html> declaration instructs the web browser about what type of document follows.
+
+The <html> opening and closing tags enclose everything but the <!DOCTYPE html> declaration. <html lang="en"> indicates that the document's language is English.
+
+The <meta> tag specifies metadata, which is data that describes the document's data. <meta charset="UTF-8"> describes how characters are represented in the HTML document. Additional <meta> tags may be used to indicate when the document was saved, who the author is, etc.
+
+The <title> opening and closing tags enclose the name of the document. The title is usually displayed in the titlebar of the browser, is used by search engines, and is used for bookmarking.
+
+The <body> opening and closing tags enclose all elements and content to be rendered in the browser.
+
+The <html> tag uses an attribute to indicate the web page's language, and <meta> uses an attribute to indicate the character set. A tag attribute is a value that provides additional information about a particular tag and is included after the tag name but before the > in the tag. Each attribute has a name and a value, specified using the form: name="value". Ex: <meta charset="UTF-8"> has an attribute named charset with value "UTF-8".
+
+The <meta> element does not use a closing tag because <meta> is a void element. A void element is an element that only needs an opening tag. Other void elements include <img> for displaying an image and <input> for obtaining user input.
+
+Notes
+Omitting the DOCTYPE from an HTML document or placing any characters before the DOCTYPE causes the web browser to render the document in quirks mode. Quirks mode is a browser rendering mode that renders a web page using non-standard layout rules emulating older web browsers. A web page with the DOCTYPE is rendered using standards mode, which uses the HTML Living Standard.
+
+The character set <meta> tag may be omitted if the web page is served from a web server that indicates the character encoding in the HTTP Content-Type header.
+
+UTF-8 is a common character encoding that describes characters used by most of the world's languages. UTF-8 even includes fictional languages (e.g., Klingon, Elvish) and emoji (e.g., 😀, ✈).
+
+The <head> tag is used to contain the document title, document metadata, and various other elements that are typically not displayed. The <head> tag is optional and is not used in this material.
