@@ -1,0 +1,17 @@
+You’ve got the right idea! But the ‘else if’ blocks aren’t nested in each other, so they wouldn’t be indented:
+
+if(something){
+  do something
+} else if (something else){
+  do something different
+}
+
+If you had an if statement inside of another one though, you would indent:
+
+if (check) {
+  if (more specific check){
+    do something
+  }
+}
+
+Notice that ‘{‘ and ‘}’ give you an idea of when to indent. They’re like those Russian nesting dolls, one inside the other
